@@ -14,8 +14,8 @@ module Fungo
     end
 
     post :location do
-      location = Location.new(params[:location])
       logger.info params
+      location = Location.new(params[:location])
 
       if location.valid?
         location.save
