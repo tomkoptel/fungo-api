@@ -16,3 +16,8 @@ group :assets do
   gem 'compass-rails'
   gem 'compass-h5bp'
 end
+
+group :test, :development do
+  gem 'rspec-rails', '~> 2.0'
+  gem 'spork-rails'
+end
