@@ -3,6 +3,10 @@ module Fungo
     version 'v1', :using => :path
     format 'json'
 
+    get :test do
+      {success: true}
+    end
+
     post :location do
       location = Location.new(params[:location])
       if location.valid?
