@@ -1,9 +1,3 @@
-GIT
-  remote: git://github.com/bengler/bengler_test_helper.git
-  revision: e9258320a096beeaa6b1bdae33252f290886f9bd
-  specs:
-    bengler_test_helper (0.0.2)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -153,7 +147,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bengler_test_helper!
   coffee-rails
   compass-h5bp
   compass-rails
