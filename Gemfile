@@ -16,7 +16,3 @@ group :assets do
   gem 'compass-rails'
   gem 'compass-h5bp'
 end
-
-group :test do
-  gem 'bengler_test_helper', :git => 'git://github.com/bengler/bengler_test_helper.git'
-end
