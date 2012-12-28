@@ -9,7 +9,7 @@ gem 'html5-rails'
 
 group :assets do
   gem 'libv8', '~> 3.11.8'
-  gem 'therubyracer'
+  gem 'therubyracer', '~> 0.11.0', :platform => :ruby
   gem 'less-rails'
   gem 'twitter-bootstrap-rails'
   gem 'sass-rails'

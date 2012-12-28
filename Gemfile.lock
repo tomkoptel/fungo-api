@@ -178,6 +178,6 @@ DEPENDENCIES
   pg
   rails (= 3.2.9)
   sass-rails
-  therubyracer
+  therubyracer (~> 0.11.0)
   twitter-bootstrap-rails
   uglifier
