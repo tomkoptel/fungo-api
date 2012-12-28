@@ -1,0 +1,9 @@
+html {}
+body {
+  background-color: #333333;
+}
+#header {
+  background: url("header.png") no-repeat center center;
+  height: 560px;
+  @include background-size(cover);
+}
