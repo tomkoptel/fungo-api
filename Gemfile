@@ -3,16 +3,14 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.9'
 gem 'grape'
 gem 'pg'
-gem 'jquery-rails'
-gem 'haml-bootstrap-rails'
-gem 'html5-rails'
+
 
 group :assets do
-  gem 'libv8', '~> 3.11.8'
-  gem 'therubyracer', '~> 0.11.0', :platform => :ruby
-  gem 'less-rails'
-  gem 'twitter-bootstrap-rails'
+  gem 'jquery-rails'
+  gem 'haml-bootstrap-rails'
+  gem 'html5-rails'
   gem 'sass-rails'
+  gem 'sass-twitter-bootstrap'
   gem 'coffee-rails'
   gem 'uglifier'
   gem 'compass-rails'
